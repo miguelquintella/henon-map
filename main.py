@@ -6,8 +6,6 @@ class point():
     def __init__(self, x, y, a = 1.4, b = 0.3):
         self.x = x
         self.y = y
-        self.a = a
-        self.b = b
     
     def location(self):
         return (self.x, self.y)
